@@ -6,7 +6,7 @@ package javaapplication1;
  * @author gustavo
  */
 public class Equipes{
-    private String NomeEquipe;
+    private String NomeEquipe;            // 
     private int AnoCriado;
     private String Engenheiro;
     private String PaisOrigem;
