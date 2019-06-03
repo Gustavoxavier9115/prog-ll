@@ -1,0 +1,43 @@
+ */
+package javaapplication1;
+
+/**
+ *
+ * @author gustavo
+ */
+public class Equipes{
+    private String NomeEquipe;
+    private int AnoCriado;
+    private String Engenheiro;
+    private String PaisOrigem;
+    private int QtdTitulos;
+
+    public Equipes(String NomeEquipe, int AnoCriado, String Engenheiro, String PaisOrigem, int QtdTitulos) {
+        this.NomeEquipe = NomeEquipe;
+        this.AnoCriado = AnoCriado;
+        this.Engenheiro = Engenheiro;
+        this.PaisOrigem = PaisOrigem;
+        this.QtdTitulos = QtdTitulos;
+    }
+
+    public String getNomeEquipe() {
+        return NomeEquipe;
+    }
+
+    public int getAnoCriado() {
+        return AnoCriado;
+    }
+
+    public String getEngenheiro() {
+        return Engenheiro;
+    }
+
+    public String getPaÃ­sOrigem() {
+        return PaisOrigem;
+    }
+
+    public int getQtdTitulos() {
+        return QtdTitulos;
+    }
+       
+}
