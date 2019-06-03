@@ -1,0 +1,57 @@
+ package javaapplication1;
+ 
+import java.util.Date;
+ 
+/**
+ *
+ * @author gustavo
+ */
+public class Pilotos {
+    private String Nome;
+    private int NumCarro;
+    private Date DataNascimento;
+    private String Nacionalidade;
+    private int Titulos;
+    private Equipes Equipe;
+    private double salario;
+
+    public Pilotos(String Nome, int NumCarro, Date DataNascimento, String Nacionalidade, int Titulos, Equipes Equipe, double salario) {
+        this.Nome = Nome;
+        this.NumCarro = NumCarro;
+        this.DataNascimento = DataNascimento;
+        this.Nacionalidade = Nacionalidade;
+        this.Titulos = Titulos;
+        this.Equipe = Equipe;
+        this.salario = salario;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public int getNumCarro() {
+        return NumCarro;
+    }
+
+    public Date getDataNascimento() {
+        return DataNascimento;
+    }
+
+    public String getNacionalidade() {
+        return Nacionalidade;
+    }
+
+    public int getTitulos() {
+        return Titulos;
+    }
+
+    public Equipes getEquipe() {
+        return Equipe;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+   // falta o metodo calculaSalario()
+    // Ã© nessesario comesar o man
+}
